@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NL4FR</string>
+
+    <string name="title_activity_nl4_fr__full_screen">NL4FR_FullScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_nl4_fr_dehet_main">NL4FR_dehet_main</string>
+</resources>

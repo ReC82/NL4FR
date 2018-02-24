@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bit.blmt.nl4fr.NL4FR_MAIN">
+
+
+    <ImageButton
+        android:id="@+id/btn_dehet"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="0dp"
+        android:onClick="oc_dehet"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/dehet"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp" />
+</android.support.constraint.ConstraintLayout>

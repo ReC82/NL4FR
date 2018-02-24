@@ -1,0 +1,18 @@
+Mode Progressif\n
+
+Le mode progressif commence à 10 mots.
+Des mots s'ajouteront en fonction de vos résultats :
+
+100% = +5 mots
+90% = +3 mots
+80% = +1 mot
+<80% = pas d'ajout
+
+Au fur et à mesure que vous progresserez, votre liste de mot augmentera.
+Mais attention !
+
+<50% = -3 mots
+
+Un minimum de 10 mots et toujours garanti.
+
+Have fun !

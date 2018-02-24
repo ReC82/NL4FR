@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bit.blmt.nl4fr.NL4FR_dehet_main">
+
+    <Button
+        android:id="@+id/btn_progressive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="go_progressive"
+        android:text="Progressive"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/btn_survival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Survival"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="67dp" />
+</android.support.constraint.ConstraintLayout>

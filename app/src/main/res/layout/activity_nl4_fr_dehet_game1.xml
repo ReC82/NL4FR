@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bit.blmt.nl4fr.NL4FR_dehet_game1">
+
+    <TextView
+        android:id="@+id/tv_woord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="74dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CheckAnswer"
+        android:text="DE"
+        android:layout_marginStart="58dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_het"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/btn_het"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CheckAnswer"
+        android:text="HET"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="62dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="199dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="62dp" />
+</android.support.constraint.ConstraintLayout>

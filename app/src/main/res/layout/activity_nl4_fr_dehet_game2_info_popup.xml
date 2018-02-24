@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight">
+
+
+    <TextView
+        android:id="@+id/tv_game2_rules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:maxLines="20"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btn_read_rules_game2_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_game2_rules"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:onClick="rules_read_ok"
+        android:text="OK" />
+</RelativeLayout>
